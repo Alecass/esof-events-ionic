@@ -1,0 +1,36 @@
+:root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 20px;
+
+}
+
+
+/* START Calendar */
+ion-item{
+    --background:white;
+}
+
+.calendar ion-item > ion-label{
+    border-left: 2px solid #3880ff;
+    padding-left: 10px;
+}
+/* END Calendar */
+
+ion-card{
+    --color: red;
+}
+
+#mapView{
+    width: 100vw;
+    height: 79vh;
+}
+
+.about-info p{
+    text-align: left;
+    padding : 1rem;
+    line-height: 1.5;
+}
+
+.about-info ion-item > ion-label{
+    padding-left: 10px;
+}
