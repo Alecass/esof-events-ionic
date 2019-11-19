@@ -6,4 +6,4 @@ Dev mode:
 
 Production mode: 
 
-- npm run build
+- npm run buildd
