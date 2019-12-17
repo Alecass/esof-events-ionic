@@ -6,9 +6,7 @@ module.exports = {
   version: "0.1",
   render: function(){
 //MAP INIT
-console.log("MAP",L)
 const myMap = L.map("mapView").setView([45.6493678,13.7756436],14)
-console.log("MAP CUSTOM", myMap)
 //aggiungo la basemap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {foo: 'bar', 
     attribution: 'Powered by Alessio Cassano',
